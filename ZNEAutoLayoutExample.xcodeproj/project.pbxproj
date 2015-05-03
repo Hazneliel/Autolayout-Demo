@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		967EF79C1AF3EA740042FA31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 967EF79B1AF3EA740042FA31 /* main.m */; };
+		967EF79F1AF3EA740042FA31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 967EF79E1AF3EA740042FA31 /* AppDelegate.m */; };
+		967EF7A71AF3EA740042FA31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 967EF7A61AF3EA740042FA31 /* Images.xcassets */; };
+		967EF7AA1AF3EA740042FA31 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 967EF7A81AF3EA740042FA31 /* LaunchScreen.xib */; };
+		967EF7B61AF3EA740042FA31 /* ZNEAutoLayoutExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 967EF7B51AF3EA740042FA31 /* ZNEAutoLayoutExampleTests.m */; };
+		967EF7C21AF3EF5B0042FA31 /* ZNEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967EF7C11AF3EF5B0042FA31 /* ZNEViewController.m */; };
+		967EF7C61AF3FB750042FA31 /* ZNECenteredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967EF7C51AF3FB750042FA31 /* ZNECenteredViewController.m */; };
+		967EF7C91AF3FE2B0042FA31 /* ZNEHorizontalAlignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967EF7C81AF3FE2B0042FA31 /* ZNEHorizontalAlignViewController.m */; };
+		967EF7CC1AF402590042FA31 /* ZNEVerticalAlignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967EF7CB1AF402590042FA31 /* ZNEVerticalAlignViewController.m */; };
+		967EF7CF1AF418C80042FA31 /* ZNESizeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967EF7CE1AF418C80042FA31 /* ZNESizeAnimationViewController.m */; };
+		967EF7D21AF515020042FA31 /* ZNEDragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967EF7D11AF515020042FA31 /* ZNEDragViewController.m */; };
+		967EF7D51AF51F790042FA31 /* ZNEDynamicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967EF7D41AF51F790042FA31 /* ZNEDynamicsViewController.m */; };
+		967EF7D81AF5AA650042FA31 /* ZNETextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967EF7D71AF5AA650042FA31 /* ZNETextViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		967EF7B01AF3EA740042FA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 967EF78E1AF3EA740042FA31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 967EF7951AF3EA740042FA31;
+			remoteInfo = ZNEAutoLayoutExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		967EF7961AF3EA740042FA31 /* ZNEAutoLayoutExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZNEAutoLayoutExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		967EF79A1AF3EA740042FA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		967EF79B1AF3EA740042FA31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		967EF79D1AF3EA740042FA31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		967EF79E1AF3EA740042FA31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		967EF7A61AF3EA740042FA31 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		967EF7A91AF3EA740042FA31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		967EF7AF1AF3EA740042FA31 /* ZNEAutoLayoutExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZNEAutoLayoutExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		967EF7B41AF3EA740042FA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		967EF7B51AF3EA740042FA31 /* ZNEAutoLayoutExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZNEAutoLayoutExampleTests.m; sourceTree = "<group>"; };
+		967EF7C01AF3EF5B0042FA31 /* ZNEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZNEViewController.h; path = ViewCOntrollers/ZNEViewController.h; sourceTree = "<group>"; };
+		967EF7C11AF3EF5B0042FA31 /* ZNEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZNEViewController.m; path = ViewCOntrollers/ZNEViewController.m; sourceTree = "<group>"; };
+		967EF7C41AF3FB750042FA31 /* ZNECenteredViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZNECenteredViewController.h; path = ViewControllers/ExampleViewControllers/ZNECenteredViewController.h; sourceTree = "<group>"; };
+		967EF7C51AF3FB750042FA31 /* ZNECenteredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZNECenteredViewController.m; path = ViewControllers/ExampleViewControllers/ZNECenteredViewController.m; sourceTree = "<group>"; };
+		967EF7C71AF3FE2B0042FA31 /* ZNEHorizontalAlignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZNEHorizontalAlignViewController.h; path = ViewControllers/ExampleViewControllers/ZNEHorizontalAlignViewController.h; sourceTree = "<group>"; };
+		967EF7C81AF3FE2B0042FA31 /* ZNEHorizontalAlignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZNEHorizontalAlignViewController.m; path = ViewControllers/ExampleViewControllers/ZNEHorizontalAlignViewController.m; sourceTree = "<group>"; };
+		967EF7CA1AF402590042FA31 /* ZNEVerticalAlignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZNEVerticalAlignViewController.h; path = ViewControllers/ExampleViewControllers/ZNEVerticalAlignViewController.h; sourceTree = "<group>"; };
+		967EF7CB1AF402590042FA31 /* ZNEVerticalAlignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZNEVerticalAlignViewController.m; path = ViewControllers/ExampleViewControllers/ZNEVerticalAlignViewController.m; sourceTree = "<group>"; };
+		967EF7CD1AF418C80042FA31 /* ZNESizeAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZNESizeAnimationViewController.h; path = ViewControllers/ExampleViewControllers/ZNESizeAnimationViewController.h; sourceTree = "<group>"; };
+		967EF7CE1AF418C80042FA31 /* ZNESizeAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZNESizeAnimationViewController.m; path = ViewControllers/ExampleViewControllers/ZNESizeAnimationViewController.m; sourceTree = "<group>"; };
+		967EF7D01AF515020042FA31 /* ZNEDragViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZNEDragViewController.h; path = ViewControllers/ExampleViewControllers/ZNEDragViewController.h; sourceTree = "<group>"; };
+		967EF7D11AF515020042FA31 /* ZNEDragViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZNEDragViewController.m; path = ViewControllers/ExampleViewControllers/ZNEDragViewController.m; sourceTree = "<group>"; };
+		967EF7D31AF51F790042FA31 /* ZNEDynamicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZNEDynamicsViewController.h; path = ViewControllers/ExampleViewControllers/ZNEDynamicsViewController.h; sourceTree = "<group>"; };
+		967EF7D41AF51F790042FA31 /* ZNEDynamicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZNEDynamicsViewController.m; path = ViewControllers/ExampleViewControllers/ZNEDynamicsViewController.m; sourceTree = "<group>"; };
+		967EF7D61AF5AA650042FA31 /* ZNETextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZNETextViewController.h; path = ViewControllers/ExampleViewControllers/ZNETextViewController.h; sourceTree = "<group>"; };
+		967EF7D71AF5AA650042FA31 /* ZNETextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZNETextViewController.m; path = ViewControllers/ExampleViewControllers/ZNETextViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		967EF7931AF3EA740042FA31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967EF7AC1AF3EA740042FA31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		967EF78D1AF3EA740042FA31 = {
+			isa = PBXGroup;
+			children = (
+				967EF7981AF3EA740042FA31 /* ZNEAutoLayoutExample */,
+				967EF7B21AF3EA740042FA31 /* ZNEAutoLayoutExampleTests */,
+				967EF7971AF3EA740042FA31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		967EF7971AF3EA740042FA31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				967EF7961AF3EA740042FA31 /* ZNEAutoLayoutExample.app */,
+				967EF7AF1AF3EA740042FA31 /* ZNEAutoLayoutExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		967EF7981AF3EA740042FA31 /* ZNEAutoLayoutExample */ = {
+			isa = PBXGroup;
+			children = (
+				967EF7BF1AF3EF310042FA31 /* ViewControllers */,
+				967EF79D1AF3EA740042FA31 /* AppDelegate.h */,
+				967EF79E1AF3EA740042FA31 /* AppDelegate.m */,
+				967EF7A61AF3EA740042FA31 /* Images.xcassets */,
+				967EF7A81AF3EA740042FA31 /* LaunchScreen.xib */,
+				967EF7991AF3EA740042FA31 /* Supporting Files */,
+			);
+			path = ZNEAutoLayoutExample;
+			sourceTree = "<group>";
+		};
+		967EF7991AF3EA740042FA31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				967EF79A1AF3EA740042FA31 /* Info.plist */,
+				967EF79B1AF3EA740042FA31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		967EF7B21AF3EA740042FA31 /* ZNEAutoLayoutExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				967EF7B51AF3EA740042FA31 /* ZNEAutoLayoutExampleTests.m */,
+				967EF7B31AF3EA740042FA31 /* Supporting Files */,
+			);
+			path = ZNEAutoLayoutExampleTests;
+			sourceTree = "<group>";
+		};
+		967EF7B31AF3EA740042FA31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				967EF7B41AF3EA740042FA31 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		967EF7BF1AF3EF310042FA31 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				967EF7C31AF3FB410042FA31 /* ExampleViewControllers */,
+				967EF7C01AF3EF5B0042FA31 /* ZNEViewController.h */,
+				967EF7C11AF3EF5B0042FA31 /* ZNEViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		967EF7C31AF3FB410042FA31 /* ExampleViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				967EF7C41AF3FB750042FA31 /* ZNECenteredViewController.h */,
+				967EF7C51AF3FB750042FA31 /* ZNECenteredViewController.m */,
+				967EF7C71AF3FE2B0042FA31 /* ZNEHorizontalAlignViewController.h */,
+				967EF7C81AF3FE2B0042FA31 /* ZNEHorizontalAlignViewController.m */,
+				967EF7CA1AF402590042FA31 /* ZNEVerticalAlignViewController.h */,
+				967EF7CB1AF402590042FA31 /* ZNEVerticalAlignViewController.m */,
+				967EF7CD1AF418C80042FA31 /* ZNESizeAnimationViewController.h */,
+				967EF7CE1AF418C80042FA31 /* ZNESizeAnimationViewController.m */,
+				967EF7D01AF515020042FA31 /* ZNEDragViewController.h */,
+				967EF7D11AF515020042FA31 /* ZNEDragViewController.m */,
+				967EF7D31AF51F790042FA31 /* ZNEDynamicsViewController.h */,
+				967EF7D41AF51F790042FA31 /* ZNEDynamicsViewController.m */,
+				967EF7D61AF5AA650042FA31 /* ZNETextViewController.h */,
+				967EF7D71AF5AA650042FA31 /* ZNETextViewController.m */,
+			);
+			name = ExampleViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		967EF7951AF3EA740042FA31 /* ZNEAutoLayoutExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967EF7B91AF3EA740042FA31 /* Build configuration list for PBXNativeTarget "ZNEAutoLayoutExample" */;
+			buildPhases = (
+				967EF7921AF3EA740042FA31 /* Sources */,
+				967EF7931AF3EA740042FA31 /* Frameworks */,
+				967EF7941AF3EA740042FA31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZNEAutoLayoutExample;
+			productName = ZNEAutoLayoutExample;
+			productReference = 967EF7961AF3EA740042FA31 /* ZNEAutoLayoutExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		967EF7AE1AF3EA740042FA31 /* ZNEAutoLayoutExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967EF7BC1AF3EA740042FA31 /* Build configuration list for PBXNativeTarget "ZNEAutoLayoutExampleTests" */;
+			buildPhases = (
+				967EF7AB1AF3EA740042FA31 /* Sources */,
+				967EF7AC1AF3EA740042FA31 /* Frameworks */,
+				967EF7AD1AF3EA740042FA31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				967EF7B11AF3EA740042FA31 /* PBXTargetDependency */,
+			);
+			name = ZNEAutoLayoutExampleTests;
+			productName = ZNEAutoLayoutExampleTests;
+			productReference = 967EF7AF1AF3EA740042FA31 /* ZNEAutoLayoutExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		967EF78E1AF3EA740042FA31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ramirez, Jorge";
+				TargetAttributes = {
+					967EF7951AF3EA740042FA31 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					967EF7AE1AF3EA740042FA31 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 967EF7951AF3EA740042FA31;
+					};
+				};
+			};
+			buildConfigurationList = 967EF7911AF3EA740042FA31 /* Build configuration list for PBXProject "ZNEAutoLayoutExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 967EF78D1AF3EA740042FA31;
+			productRefGroup = 967EF7971AF3EA740042FA31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				967EF7951AF3EA740042FA31 /* ZNEAutoLayoutExample */,
+				967EF7AE1AF3EA740042FA31 /* ZNEAutoLayoutExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		967EF7941AF3EA740042FA31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967EF7AA1AF3EA740042FA31 /* LaunchScreen.xib in Resources */,
+				967EF7A71AF3EA740042FA31 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967EF7AD1AF3EA740042FA31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		967EF7921AF3EA740042FA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967EF7D51AF51F790042FA31 /* ZNEDynamicsViewController.m in Sources */,
+				967EF7CC1AF402590042FA31 /* ZNEVerticalAlignViewController.m in Sources */,
+				967EF7C61AF3FB750042FA31 /* ZNECenteredViewController.m in Sources */,
+				967EF79F1AF3EA740042FA31 /* AppDelegate.m in Sources */,
+				967EF7C91AF3FE2B0042FA31 /* ZNEHorizontalAlignViewController.m in Sources */,
+				967EF7D21AF515020042FA31 /* ZNEDragViewController.m in Sources */,
+				967EF7CF1AF418C80042FA31 /* ZNESizeAnimationViewController.m in Sources */,
+				967EF7D81AF5AA650042FA31 /* ZNETextViewController.m in Sources */,
+				967EF7C21AF3EF5B0042FA31 /* ZNEViewController.m in Sources */,
+				967EF79C1AF3EA740042FA31 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967EF7AB1AF3EA740042FA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967EF7B61AF3EA740042FA31 /* ZNEAutoLayoutExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		967EF7B11AF3EA740042FA31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 967EF7951AF3EA740042FA31 /* ZNEAutoLayoutExample */;
+			targetProxy = 967EF7B01AF3EA740042FA31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		967EF7A81AF3EA740042FA31 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				967EF7A91AF3EA740042FA31 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		967EF7B71AF3EA740042FA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		967EF7B81AF3EA740042FA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		967EF7BA1AF3EA740042FA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZNEAutoLayoutExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		967EF7BB1AF3EA740042FA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZNEAutoLayoutExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		967EF7BD1AF3EA740042FA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZNEAutoLayoutExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZNEAutoLayoutExample.app/ZNEAutoLayoutExample";
+			};
+			name = Debug;
+		};
+		967EF7BE1AF3EA740042FA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZNEAutoLayoutExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZNEAutoLayoutExample.app/ZNEAutoLayoutExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		967EF7911AF3EA740042FA31 /* Build configuration list for PBXProject "ZNEAutoLayoutExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967EF7B71AF3EA740042FA31 /* Debug */,
+				967EF7B81AF3EA740042FA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		967EF7B91AF3EA740042FA31 /* Build configuration list for PBXNativeTarget "ZNEAutoLayoutExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967EF7BA1AF3EA740042FA31 /* Debug */,
+				967EF7BB1AF3EA740042FA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		967EF7BC1AF3EA740042FA31 /* Build configuration list for PBXNativeTarget "ZNEAutoLayoutExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967EF7BD1AF3EA740042FA31 /* Debug */,
+				967EF7BE1AF3EA740042FA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 967EF78E1AF3EA740042FA31 /* Project object */;
+}
